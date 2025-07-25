@@ -11,7 +11,7 @@ Driver for SFA30 formaldehyde detection module (I2C).
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/sfa3x^1.0.0
+idf.py add-dependency esp-idf-lib/sfa3x^1.0.0
 ```
 
 ## Support
