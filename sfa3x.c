@@ -125,7 +125,7 @@ static esp_err_t read_resp(i2c_dev_t *dev, uint16_t *data, size_t words)
 }
 
 static esp_err_t execute_cmd(i2c_dev_t *dev, uint16_t cmd, uint32_t timeout_ms,
-        uint16_t *out_data, size_t out_words, uint16_t *in_data, size_t in_words)
+                             uint16_t *out_data, size_t out_words, uint16_t *in_data, size_t in_words)
 {
     CHECK_ARG(dev);
 
