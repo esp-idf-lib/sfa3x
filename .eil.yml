@@ -1,7 +1,7 @@
 ---
 name: sfa3x
 description: Driver for SFA30 formaldehyde detection module (I2C)
-version: 1.0.6
+version: 1.0.7
 groups:
   - air-quality
   - gas
